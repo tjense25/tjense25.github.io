@@ -1,1 +1,29 @@
-Hello World
+<html>
+<head>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$(function(){
+  $("#header").load("header.html");
+  $("#footer").load("footer.html");
+});
+</script>
+<link rel="stylesheet" type="text/css" href="main.css">
+<style>
+.line{
+width:50%;
+float:left;
+}
+</style>
+</head>
+<body>
+<div id="header"></div>
+<div class="line">
+<h1 id="sectionTitle"> About Me: </h1>
+<div id = "container">
+<p> I am an undergraduate at Brigham Young University studying Bioinformatics with a minor in Mathematics. I am passionate about coding, gaining knoweldge, and applying this knoweldge to help better humanity. I wish to use my knowledge gained here to pursue research in various fields of Genomics and Biochemsitry. Particularly, I am interested in using mathematical models and computer algorithms to simulate important protein interactions happening throughout our bodies.</p>
+</div>
+</div>
+<img class="line" src="http://i66.tinypic.com/n71uuf.jpg" alt="HeadShot" style="width:350px; height:430px;">
+<div id="footer"></div>
+</body>
+</html>

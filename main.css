@@ -1,0 +1,15 @@
+#sectionTitle{
+font-size:80px;
+font-family: Helvetica, Arial, sans-serif;
+border-bottom: 5px solid hotpink;
+}
+
+#container{
+font-size: 30px;
+font-family:Helvetica, Arial, sans-serif;
+}
+
+img {
+border: 5px solid darkgrey;
+margin: 50px;
+}
